@@ -1,0 +1,39 @@
+.test {
+  display: none;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 1rem;
+  margin-bottom: 1.6rem;
+  background-color: var(--color-bar);
+  border-radius: 100rem;
+  overflow: hidden;
+}
+
+.gage {
+  width: 20%;
+  height: 100%;
+  background-color: var(--color-gage);
+  border-radius: 100rem;
+}
+
+.question {
+  display: block;
+  margin-bottom: 1.6rem;
+  font-size: 1.8rem;
+}
+
+.btn-answer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  min-height: 4rem;
+  padding: 0.8rem 1.6rem;
+  margin-bottom: 1.6rem;
+  font-size: 1.6rem;
+  text-align: left;
+  color: var(--color-text-light);
+  background-color: var(--color-primary);
+  border-radius: 0.4rem;
+}

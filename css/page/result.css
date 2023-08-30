@@ -1,0 +1,28 @@
+.result {
+  display: none;
+}
+
+.result-subtitle {
+  display: block;
+  font-size: 1.4rem;
+  margin-bottom: 0.8rem;
+}
+
+.result-title {
+  margin-bottom: 1.6rem;
+  font-size: 2.4rem;
+  text-align: center;
+}
+
+.result-hashtag {
+  display: block;
+  margin-bottom: 1.6rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.result-desc {
+  margin-bottom: 1.6rem;
+  font-size: 1.6rem;
+  line-height: 1.5;
+}

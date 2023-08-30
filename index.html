@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- SEO -->
+    <title>초간단 MBTI 테스트</title>
+    <meta
+      name="description"
+      content="딱, 네 가지 질문으로 알아보는 MBTI 테스트"
+    />
+    <meta name="keywords" content="MBTI, 간단한MBTI, 단순한MBTI" />
+    <meta name="author" content="황상은" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="배포 후 링크" />
+    <meta property="og:title" content="초간단 MBTI 테스트" />
+    <meta
+      property="og:description"
+      content="딱, 네 가지 질문으로 알아보는 MBTI 테스트"
+    />
+    <meta property="og:image" content="배포 후 이미지" />
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/9a92ef28ab.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/main.css" />
+    <!-- JS -->
+    <script type="module" src="./js/common.mjs" defer></script>
+    <script type="module" src="./js/test.mjs" defer></script>
+    <script type="module" src="./js/result.mjs" defer></script>
+  </head>
+  <body>
+    <header class="global-header">
+      <h1>초간단 MBTI</h1>
+      <button class="btn-mode" type="button" aria-label="다크모드">
+        <i class="fa-solid fa-sun"></i>
+      </button>
+    </header>
+    <section class="home show">
+      <div class="container">
+        <div class="home-inner">
+          <h2 class="home-title">초간단 MBTI 테스트</h2>
+          <p class="home-desc">딱, 네 가지 질문으로 끝나요!</p>
+          <button class="btn-start" type="button">테스트 시작하기</button>
+        </div>
+      </div>
+    </section>
+    <section class="test">
+      <div class="container">
+        <div class="progress-bar">
+          <div class="gage"></div>
+        </div>
+        <strong class="question"></strong>
+        <div class="answer-wrapper"></div>
+      </div>
+    </section>
+    <section class="result">
+      <div class="container">
+        <span class="result-subtitle">당신의 유형은...</span>
+        <h2 class="result-title"></h2>
+        <span class="result-hashtag"></span>
+        <p class="result-desc"></p>
+        <button class="btn-start" type="button">테스트 다시하기</button>
+      </div>
+    </section>
+    <footer class="global-footer">
+      <div class="container">재미로만 보세요!</div>
+    </footer>
+  </body>
+</html>

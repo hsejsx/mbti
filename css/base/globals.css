@@ -1,0 +1,54 @@
+.global-header,
+.global-footer {
+  width: 100%;
+  max-width: 42.5rem;
+  padding: 1rem;
+  margin: 0 auto;
+  font-size: 1.6rem;
+}
+
+.global-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.btn-mode {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 4rem;
+  height: 4rem;
+  font-size: 2.2rem;
+}
+
+button:hover {
+  opacity: 0.7;
+}
+
+.global-footer {
+  color: var(--color-text-light);
+  background-color: var(--color-bg);
+}
+
+.home,
+.test,
+.result {
+  flex-grow: 1;
+}
+
+.container {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 42.5rem;
+  height: 100%;
+  padding: 1rem;
+  margin: 0 auto;
+}
+
+.show {
+  display: flex !important;
+  flex-direction: column;
+}

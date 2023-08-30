@@ -1,0 +1,22 @@
+:root {
+  /* Color system */
+  --color-green: #33a575;
+  --color-black: #333;
+  --color-white: #fff;
+  --color-red: crimson;
+  --color-gray: gray;
+
+  /* Color abstract */
+  --color-primary: var(--color-green);
+  --color-text: var(--color-black);
+  --color-text-light: var(--color-white);
+  --color-bar: var(--color-gray);
+  --color-gage: var(--color-red);
+  --color-bg: var(--color-gray);
+  --color-bg-light: var(--color-white);
+}
+
+body.dark {
+  --color-bg-light: var(--color-black);
+  --color-text: var(--color-white);
+}
