@@ -34,7 +34,19 @@ button:hover {
 .home,
 .test,
 .result {
+  position: relative;
   flex-grow: 1;
+  width: 100%;
+  max-width: 42.5rem;
+  padding-bottom: 250px;
+  margin: 0 auto;
+}
+
+.kakao_ad_area {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
 }
 
 .container {
