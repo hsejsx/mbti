@@ -1,4 +1,6 @@
-Kakao.init(process.env.KAKAO_API);
+import { KAKAO_API } from './api.mjs';
+
+Kakao.init(KAKAO_API);
 
 const btnShareKakao = document.querySelector('#kakaotalk-sharing-btn');
 btnShareKakao.addEventListener('click', shareMessage);
