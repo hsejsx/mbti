@@ -27,6 +27,7 @@
   height: 4rem;
   padding: 0 1.6rem;
   margin: 0 auto;
+  font-size: 1.6rem;
   color: var(--color-text-light);
   background-color: var(--color-primary);
 }

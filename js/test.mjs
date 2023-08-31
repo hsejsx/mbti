@@ -9,6 +9,11 @@ const testElem = document.querySelector('.test');
 const resultElem = document.querySelector('.result');
 let index = 0;
 export let result = '';
+let sendResult = '';
+export function getResult() {
+  console.log(sendResult);
+  return sendResult;
+}
 
 setQuestion(index);
 
@@ -53,5 +58,6 @@ function SelectAnswer(e) {
   showResult();
   index = 0;
   setQuestion(index);
+  sendResult = result;
   result = '';
 }
