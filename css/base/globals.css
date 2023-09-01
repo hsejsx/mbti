@@ -38,15 +38,17 @@ button:hover {
   flex-grow: 1;
   width: 100%;
   max-width: 42.5rem;
-  padding-bottom: 250px;
+  padding-bottom: 100px;
   margin: 0 auto;
 }
 
-.kakao_ad_area {
+.ad-box {
   position: absolute;
   right: 0;
   bottom: 0;
   left: 0;
+  width: 320px;
+  height: 100px;
 }
 
 .container {
